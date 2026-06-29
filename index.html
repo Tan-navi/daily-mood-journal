@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daily Mood Journal</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🌿 Daily Mood Journal</h1>
+
+<p class="subtitle">
+Track how you're feeling today.
+</p>
+
+<input
+type="text"
+id="name"
+placeholder="Enter your name">
+
+<select id="mood">
+
+<option value="">Choose Your Mood</option>
+<option>Happy 😊</option>
+<option>Calm 🌿</option>
+<option>Excited 🎉</option>
+<option>Stressed 😓</option>
+<option>Sad 🌧️</option>
+
+</select>
+
+<textarea
+id="note"
+placeholder="Write a short note..."></textarea>
+
+<button id="saveBtn">
+Save Entry
+</button>
+
+<div id="result"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
